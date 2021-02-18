@@ -11,7 +11,7 @@
     position: relative;
     font-size: $default-font-size;
 
-    border:none;
+    border: none;
     cursor: pointer;
   }
 
@@ -25,15 +25,16 @@
     }
   }
 
- &:active , &:focus{
-   outline:none; // input的藍色外框
+  &:active,
+  &:focus {
+    outline: none; // input的藍色外框
     transform: translateY(-1px);
     box-shadow: 0 10px 20px rgba($color-black, 0.2);
   }
 
   &--white {
     background-color: $color-grey-white;
-    color: $color-grey-white;
+    color: $color-grey-dark;
 
     &::after {
       background-color: $color-grey-white;
